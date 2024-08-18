@@ -43,7 +43,9 @@ I had a lot of fun completing this challenge! I initially considered integrating
 
 ```html
 <div role="article" class="card">
-  <img class="card-image" src="images/image-qr-code.png" alt="QR Code Image">
+  <div class="header">
+    <img class="card-image" src="images/image-qr-code.png" alt="QR Code Image">
+  </div>
   <div role="main" class="card-content">
     <h1 class="card-title">
       Improve your front-end skills by building projects.</h1>
