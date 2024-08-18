@@ -58,7 +58,7 @@ I had a lot of fun completing this challenge! I initially considered integrating
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 'card';
-    grid-template: "card" "footer";
+    grid-template: "card";
     justify-content: center;
 }
 
@@ -74,11 +74,6 @@ I had a lot of fun completing this challenge! I initially considered integrating
     box-shadow: 5 5 5px 0 hsl(0, 0%, 80%);
     max-height: 499px;
     max-width: 320px;
-}
-
-.footer-container {
-    width: 320px;
-    grid-area: footer;
 }
 ```
 
