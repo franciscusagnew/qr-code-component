@@ -16,7 +16,3 @@
 .prettierignore
 
 # Additional files/folders to ignoore
-_pgbackup/
-_pginfo/
-pinegrow.json
-projectdb.pgml
