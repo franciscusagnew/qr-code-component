@@ -8,13 +8,19 @@ a {
     color: hsl(216, 100%, 61%);
 }
 
-.container {
+header {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.main-grid {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 'card';
     grid-template: "card" "footer";
     justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -66,8 +72,7 @@ a {
 }
 
 .footer-container {
-    width: 320px;
-    grid-area: footer;
+    text-align: center;
 }
 
 .footer-body {
