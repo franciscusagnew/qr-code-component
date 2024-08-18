@@ -75,12 +75,6 @@ header {
 }
 
 .footer-container {
-    text-align: center;
-}
-
-.footer-body {
     color: hsl(0, 0%, 100%);
     text-align: center;
-    margin-bottom: 16px;
-    margin-top: 16px;
 }
