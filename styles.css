@@ -1,4 +1,7 @@
 body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(208, 7%, 46%);
     background-color: hsl(218, 44%, 22%);
     padding-top: 160px;
 }
