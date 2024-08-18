@@ -42,12 +42,11 @@ This was my first challenge with Frontend Mentor, I found myself thinking... wha
 I had a lot of fun completing this challenge! I initially considered integrating [TailwindCss](https://tailwindcss.com/), [React](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/) for my solution, but decided to use only semantic HTML, CSS, & a simple layout using CSS grids.
 
 ```html
-<div class="card">
+<div role="article" class="card">
   <img class="card-image" src="images/image-qr-code.png" alt="QR Code Image">
-
-  <div class="card-content">
-    <p class="card-title">
-      Improve your front-end skills by building projects.</p>
+  <div role="main" class="card-content">
+    <h1 class="card-title">
+      Improve your front-end skills by building projects.</h1>
     <p class="card-body">
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
